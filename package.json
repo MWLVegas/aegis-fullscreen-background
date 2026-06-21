@@ -1,0 +1,27 @@
+{
+  "name": "aegis-iframe-background-card",
+  "version": "0.1.0",
+  "description": "A HACS-compatible Home Assistant Lovelace card that renders an iframe as a full-dashboard background layer.",
+  "type": "module",
+  "main": "dist/aegis-iframe-background-card.js",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "hacs.json"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "check": "node --check src/aegis-iframe-background-card.js && node --check dist/aegis-iframe-background-card.js"
+  },
+  "keywords": [
+    "home-assistant",
+    "lovelace",
+    "hacs",
+    "iframe",
+    "background",
+    "custom-card"
+  ],
+  "author": "",
+  "license": "MIT"
+}
