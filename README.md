@@ -18,7 +18,7 @@ It does not fetch image lists, rotate slides, require entities, call Home Assist
 
 If HACS does not add the resource automatically, add it manually in Home Assistant:
 
-- URL: `/hacsfiles/aegis-iframe-background-card/aegis-iframe-background-card.js`
+- URL: `/hacsfiles/aegis-fullscreen-background/aegis-iframe-background-card.js`
 - Type: `JavaScript module`
 
 ## Example YAML
@@ -62,4 +62,3 @@ The card creates a fixed-position iframe layer that fills the browser viewport a
 </div>
 <ha-card class="layout-anchor"></ha-card>
 ```
-

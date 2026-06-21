@@ -1,6 +1,5 @@
 {
   "name": "Aegis Iframe Background Card",
-  "content_in_root": false,
-  "filename": "dist/aegis-iframe-background-card.js",
+  "filename": "aegis-iframe-background-card.js",
   "render_readme": true
 }

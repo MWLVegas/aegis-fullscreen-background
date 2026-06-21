@@ -155,7 +155,7 @@ class AegisIframeBackgroundCard extends HTMLElement {
 }
 
 if (!customElements.get("aegis-iframe-background-card")) {
-  customElements.define("aegis-iframe-background-card", AegisIframeBackgroundCard);
+  customElements.define('aegis-iframe-background-card', AegisIframeBackgroundCard);
 }
 
 window.customCards = window.customCards || [];
